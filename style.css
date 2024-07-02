@@ -1,0 +1,79 @@
+body {
+    font-family: "Source Code Pro", monospace;
+}
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #684536;
+}
+
+header {
+    padding: 120px 0; /* Example padding for header content */
+    background-color: #E8D9C2; /* Example background color */
+}
+
+.rounded-circle-container {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Ensures the container is circular */
+    overflow: hidden; /* Hides any overflow content */
+    border: 2px solid #585b5f; /* Example border style */
+}
+
+.rounded-circle-container img {
+    width: 100%; /* Ensures the image fills the circular container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes any extra space beneath the image */
+}
+
+header h1 {
+    font-family: Margarine, sans-serif;
+}
+
+h2 {
+    font-family: Margarine, sans-serif;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+#mainNav .navbar-brand,
+#mainNav .navbar-nav .nav-link {
+    font-family: Margarine, sans-serif !important;
+    color: white !important; /* Change text color to white */
+}
+
+#portfolio {
+    padding: 100px 0;
+}
+
+.card {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+#about {
+    padding: 100px 0;
+    background-color: #E8D9C2;
+}
+
+#contact {
+    padding: 100px 0;
+}
