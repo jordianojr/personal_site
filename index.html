@@ -29,12 +29,13 @@
         </div>
     </nav>
     <header class="text-center">
-        <div style="padding-top: 100px" class="container">
+        <div class="container" style="padding-top: 100px;">
             <div class="container mt-2">
                 <div class="rounded-circle-container mx-auto mb-3">
-                    <img src="assets/me.jpg" alt="me">
+                    <img src="assets/me.jpg" class="img-fluid rounded-circle" alt="me" style="max-width: 300px;">
                 </div>
             </div>
+        </div>        
             <h1>MOK CONG YAO</h1>
             <h4>BSc (Information Systems) Undergraduate @ SMU | Aspiring Full-Stack Web Developer</h4>
             <p>Part-time freaky rizzler</p>
@@ -106,67 +107,85 @@
             </div>
         </div>
         
-    <div class="text-center" id="about">
-        <h2>ABOUT ME</h2>
-        <p>I made this webpage in order to test out my knowledge after learning HTML, CSS & Javascript on my own!</p>
-        <p class="d-inline-flex gap-1">
-            <!-- <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">View All</button> -->
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Introduction</a>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Awards</button>
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Skills</a>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">Experience</button>
-          </p>
-          <div class="row">
-            <div class="col">
-              <div class="collapse multi-collapse" id="multiCollapseExample1">
-                <div class="card card-body">
-                    Zealous and ready to learn more about daily work of a Full-Stack Web Developer and processes hidden from naked eye, I will equip all my knowledge in programming, data management and soft skills to contribute to new and innovative ideas!
+        <div class="text-center" id="about">
+            <h2>ABOUT ME</h2>
+            <p>I made this webpage in order to test out my knowledge after learning HTML, CSS & Javascript on my own!</p>
+            
+            <div class="row mb-3">
+                <div class="col-md-4"></div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary d-block mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Introduction</button>
                 </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="collapse multi-collapse" id="multiCollapseExample2">
-                <div class="card card-body">
-                    1st Runners-Up (Social Responsibility Track) @ hacksingapore 2024 by AngelHack
+                <div class="col-md-2">
+                    <button class="btn btn-primary d-block mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Awards</button>
                 </div>
-              </div>
+                <div class="col-md-4"></div>
             </div>
-          </div>
-          <div class="row" style="padding-top: 10px;">
-            <div class="col">
-              <div class="collapse multi-collapse" id="multiCollapseExample3">
-                <div class="card card-body">
-                    Front-end Frameworks: Bootstrap | React.js | Next.js <br>
-                    Programming Languages: Python | JavaScript <br>
-                    Web Development: HTML | CSS <br>
-                    Backend Technologies: Node.js | Express.js <br>
-                    Templating Languages: EJS | PHP <br>
-                    Database: SQL (MySQL) <br>
-                    Microsoft Office Suite: Word, PowerPoint, Excel  <br>
-                    Graphic Design Tools: Canva | Figma <br>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="collapse multi-collapse" id="multiCollapseExample4">
-                <div class="card card-body">
-                    <strong> Administrative Executive @ Singapore Management University </strong>
-                    Mar 2023 - Jul 2023 <br>
-                    • Coordinated and hosted admissions interview between faculty and prospective students <br>
-                    • Cold calling to encourage applicants to complete a post-application survey, resulting in 79% completion rate <br>
-                    <strong> Singapore Civil Defence Force </strong>
-                    Platoon Commander <br>
-                    Jul 2022 - Feb 2023 <br>
-                    • Initiated exercise of collecting feedback forms using Google Forms during enlistment events and processed data from hundreds of responses into a comprehensible PowerPoint for After Action Review. <br>
-                    Community Preparedness Officer <br>
-                    Jan 2022 - Jul 2022 <br>
-                    • Liaised with local constituency party members and organised commendation ceremonies for member of public responded to first aid cases in community.
-                </div>
-              </div>
-            </div>
-          </div>
         
-    </div>
+            <div class="row mb-3">
+                <div class="col-md-4"></div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary d-block mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Skills</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary d-block mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">Experience</button>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                            Zealous and ready to learn more about daily work of a Full-Stack Web Developer and processes hidden from naked eye, I will equip all my knowledge in programming, data management and soft skills to contribute to new and innovative ideas!
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            1st Runners-Up (Social Responsibility Track) @ hacksingapore 2024 by AngelHack
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row" style="padding-top: 10px;">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample3">
+                        <div class="card card-body">
+                            Front-end Frameworks: Bootstrap | React.js | Next.js <br>
+                            Programming Languages: Python | JavaScript <br>
+                            Web Development: HTML | CSS <br>
+                            Backend Technologies: Node.js | Express.js <br>
+                            Templating Languages: EJS | PHP <br>
+                            Database: SQL (MySQL) <br>
+                            Microsoft Office Suite: Word, PowerPoint, Excel  <br>
+                            Graphic Design Tools: Canva | Figma <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample4">
+                        <div class="card card-body">
+                            <strong>Administrative Executive @ Singapore Management University</strong>
+                            Mar 2023 - Jul 2023 <br>
+                            • Coordinated and hosted admissions interview between faculty and prospective students <br>
+                            • Cold calling to encourage applicants to complete a post-application survey, resulting in 79% completion rate <br>
+                            <strong>Singapore Civil Defence Force</strong>
+                            Platoon Commander <br>
+                            Jul 2022 - Feb 2023 <br>
+                            • Initiated exercise of collecting feedback forms using Google Forms during enlistment events and processed data from hundreds of responses into a comprehensible PowerPoint for After Action Review. <br>
+                            Community Preparedness Officer <br>
+                            Jan 2022 - Jul 2022 <br>
+                            • Liaised with local constituency party members and organised commendation ceremonies for member of public responded to first aid cases in community.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+
     <div class="text-center" id="contact">
         <h2>CONTACT</h2>
         <p>Here are ways that we can get in contact!</p>
