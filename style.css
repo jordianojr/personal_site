@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    min-height: 700px !important;
+    min-height: 700px;
     padding: 120px 0; /* Example padding for header content */
     background-color: #E8D9C2; /* Example background color */
 }
