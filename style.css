@@ -77,6 +77,16 @@ header {
     border-bottom-right-radius: 20px;
 }
 
+.card-body1 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #BBD0A5;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
 .modal-title {
     text-align: center;
 }
